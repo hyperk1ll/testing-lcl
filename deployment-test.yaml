@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: simple-api
-          image: gcr.io/lcl-testing/simple-api:v1
+          image: gcr.io/lcl-tesing/simple-api:v1
           ports:
             - containerPort: 8080
 
