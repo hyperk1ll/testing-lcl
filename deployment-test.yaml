@@ -13,8 +13,8 @@ spec:
         app: testing-lcl
     spec:
       containers:
-        - name: simple-api
-          image: gcr.io/lcl-tesing/simple-api:v1
+        - name: simple-api-container
+          image: asia-southeast2-docker.pkg.dev/lcl-tesing/simple-api-repo/simple-api:v1
           ports:
             - containerPort: 8080
 
